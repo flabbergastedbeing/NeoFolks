@@ -29,7 +29,7 @@ export function TeamCard({ name, role, linkedin, github }: TeamMember) {
       <p className="mt-16 text-body font-semibold text-ghost-white">{name}</p>
       <p className="text-body-sm text-ash-gray">{role}</p>
       <div className="mt-16 flex items-center justify-center gap-16">
-        {linkedin && (
+        {/* {linkedin && (
           <a
             href={linkedin}
             aria-label={`${name} on LinkedIn`}
@@ -37,8 +37,8 @@ export function TeamCard({ name, role, linkedin, github }: TeamMember) {
           >
             <Linkedin className="h-16 w-16" />
           </a>
-        )}
-        {github && (
+        )} */}
+        {/* {github && (
           <a
             href={github}
             aria-label={`${name} on GitHub`}
@@ -46,7 +46,7 @@ export function TeamCard({ name, role, linkedin, github }: TeamMember) {
           >
             <Github className="h-16 w-16" />
           </a>
-        )}
+        )} */}
       </div>
     </motion.div>
   );
